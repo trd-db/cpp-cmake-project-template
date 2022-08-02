@@ -15,4 +15,4 @@ target_link_libraries(project_tests PUBLIC
 list(APPEND CMAKE_MODULE_PATH ${catch2_SOURCE_DIR}/extras)
 include(CTest)
 include(Catch)
-catch_discover_tests()
+catch_discover_tests(project_tests)

@@ -1,4 +1,4 @@
-add_library(Hello hello.cpp)
+add_library(Hello add.cpp)
 
 target_include_directories(Hello PUBLIC 
                         ${CMAKE_SOURCE_DIR}/include 
